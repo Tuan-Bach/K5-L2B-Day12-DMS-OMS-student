@@ -1,6 +1,6 @@
 # Lab Ngày 12 — DMS & OMS: gán nhãn khung hình cabin RGB + IR
 
-AI20K K5 · L2 · Ngày 12 · 14:00–18:00 · CVAT chạy trên máy của bạn · làm **cá nhân hoặc nhóm 2–4 người**
+AI20K K5 · L2B · Ngày 12 · 14:00–18:00 · CVAT chạy trên máy của bạn · làm **cá nhân hoặc nhóm 2–4 người**
 
 Bạn gán nhãn **22 khung hình** cabin (tối đa 26) theo Guideline Cabin v1.0. Sau đó bạn tự kiểm bằng script `cabin_check`, đổi file export với một bạn để đối chiếu, rồi sửa lại. Cuối buổi bạn ghi những gì ảnh hồng ngoại (IR) làm mất so với ảnh màu, và viết bản nháp danh sách lớp cho model DMS/OMS.
 
@@ -21,7 +21,7 @@ Bạn gán nhãn **22 khung hình** cabin (tối đa 26) theo Guideline Cabin v1
 Repo này (tài liệu, mẫu điền, script `cabin_check`) và thư mục ảnh `Gxx/` của mã bạn được giao. Dùng gói ảnh của nhóm (`Gxx.zip`). Giải nén rồi chép thư mục `Gxx/` vào **trong** thư mục repo này. `.gitignore` đã chặn thư mục `G01/`…`G12/` (mẫu `G[0-9][0-9]/`) và mọi file ảnh, nên ảnh không bị commit. Chỉ chạy script trong `scripts/` của repo này, không dùng `Gxx/scripts/` trong gói (bản cũ, lỗi tiếng Việt trên Windows).
 
 ```
-K5-L2-Day12-DMS-OMS-student/
+K5-L2B-Day12-DMS-OMS-student/
   scripts/                 cabin_check.py, cabin_schema.py, rgb_ir_diff.py   (luôn chạy script ở đây)
   templates/               mẫu điền E4, E5, tự đánh giá, TEAM, prompts, exit ticket
   labels_cabin_v1.json     dán vào tab Raw khi tạo project CVAT
